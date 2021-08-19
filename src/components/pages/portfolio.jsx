@@ -6,7 +6,7 @@ function Portfolio(props) {
     <>
       <Nav />
       <h1>
-        Janelle Portfolio Site
+        {`${props.match.params.name}'s portfolio`}
       </h1>
     </>
   );
