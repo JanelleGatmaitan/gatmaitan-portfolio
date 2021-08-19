@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Janelle",
+    "about": "Janelle's bio",
+    "projects": [
+      {
+        "projectName": "Sprout",
+        "liveLink": "gitHub.com/linktoproject",
+        "gitHub": "linkToRepo"
+      }
+    ],
+    "contact": {
+      "email": "janellegatmaitan@gmail.com",
+      "phone": "949-264-3741",
+      "linkedIn": "https://www.linkedin.com/in/janelle-gatmaitan/"
+    }
+  },
+  {
+    "name": "Josh",
+    "about": "Josh's bio"
+  }
+]
