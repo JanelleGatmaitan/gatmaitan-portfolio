@@ -1,9 +1,10 @@
 import React from 'react';
 import { HStack } from '@chakra-ui/react';
 
-function Nav() {
+function Nav(props) {
   return (
-    <HStack>
+    <HStack bgColor="blue">
+      <p>{props.name}</p>
       <p>About</p>
       <p>Technologies</p>
     </HStack>
