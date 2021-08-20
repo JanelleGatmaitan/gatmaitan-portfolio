@@ -1,10 +1,10 @@
 import React from 'react';
-import { HStack } from '@chakra-ui/react';
+import { HStack, Heading } from '@chakra-ui/react';
 
 function Nav(props) {
   return (
     <HStack bgColor="blue">
-      <p>{props.name}</p>
+      <Heading>{`${props.firstName} ${props.lastName}`}</Heading>
       <p>About</p>
       <p>Technologies</p>
     </HStack>

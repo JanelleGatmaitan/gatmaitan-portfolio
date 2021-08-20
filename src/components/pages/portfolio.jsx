@@ -12,8 +12,12 @@ function Portfolio(props) {
   }, [name]);
   return (
     <>
-      <Nav name={name}/>
-      {person && <h1>{`${person.firstName}'s portfolio`}</h1>}
+      {person &&
+      <>
+        <Nav firstName={person.firstName} lastName={person.lastName} />
+        <h1>{`${person.firstName}'s portfolio`}</h1>
+      </>
+      }
     </>
   );
 }
