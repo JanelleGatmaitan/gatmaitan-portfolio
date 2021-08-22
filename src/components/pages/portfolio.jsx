@@ -1,13 +1,22 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Nav from '../nav';
+import getData from '../../lib/get-data';
+import { HStack } from '@chakra-ui/react';
 
 function Portfolio(props) {
+  const name = props.match.params.name;
+  const [person, setPerson] = useState();
+  useEffect(() => {
+    const data = getData(name);
+    setPerson(data);
+  }, [name]);
   return (
     <>
-      <Nav />
-      <h1>
-        {`${props.match.params.name}'s portfolio`}
-      </h1>
+      {person &&
+      <>
+        <Nav firstName={person.firstName} lastName={person.lastName} />
+      </>
+      }
     </>
   );
 }
