@@ -4,27 +4,49 @@ import {
   Heading,
   UnorderedList,
   ListItem,
-  Link,
+  LinkOverlay,
   Spacer
 }
   from '@chakra-ui/react';
 
 function Nav(props) {
   return (
-    <HStack bgColor="blue">
-      <Heading>{`${props.firstName} ${props.lastName}`}</Heading>
+    <HStack
+    bg="blue"
+    height="115px"
+    >
+      <Heading ml="30px">{`${props.firstName} ${props.lastName}`}</Heading>
       <Spacer />
-      <UnorderedList styleType="none">
-        <HStack mr="50px">
+      <UnorderedList display="flex" styleType="none" width="45%" justifyContent="space-evenly">
           <ListItem _hover={{
-            background: "white",
-            color: "teal.500",
-          }}>About</ListItem>
-          <ListItem>Skills</ListItem>
-          <ListItem>Projects</ListItem>
-          <ListItem>Contact</ListItem>
-          <ListItem>Resume</ListItem>
-        </HStack>
+            fontWeight: "bold",
+            textDecoration: "underline"
+          }}>
+            <a href="#about">About</a>
+        </ListItem>
+        <ListItem _hover={{
+          fontWeight: "bold",
+          textDecoration: "underline"
+        }}>
+          <a href="#skills">Skills</a>
+        </ListItem>
+        <ListItem _hover={{
+          fontWeight: "bold",
+          textDecoration: "underline"
+        }}>
+          <a href="#projects">Projects</a>
+        </ListItem>
+        <ListItem _hover={{
+          fontWeight: "bold",
+          textDecoration: "underline"
+        }}>
+          <a href="#contact">Contact</a>
+          </ListItem>
+        <ListItem _hover={{
+          fontWeight: "bold",
+          textDecoration: "underline"
+        }}>Resume
+        </ListItem>
       </UnorderedList>
     </HStack>
   );
