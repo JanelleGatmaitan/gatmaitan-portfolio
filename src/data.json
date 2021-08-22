@@ -1,6 +1,7 @@
 [
   {
-    "name": "Janelle",
+    "firstName": "Janelle",
+    "lastName": "Gatmaitan",
     "about": "Janelle's bio",
     "projects": [
       {
@@ -16,7 +17,8 @@
     }
   },
   {
-    "name": "Josh",
+    "firstName": "Josh",
+    "lastName": "Gatmaitan",
     "about": "Josh's bio"
   }
 ]
