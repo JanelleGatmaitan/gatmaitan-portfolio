@@ -4,7 +4,6 @@ import {
   Heading,
   UnorderedList,
   ListItem,
-  LinkOverlay,
   Spacer
 }
   from '@chakra-ui/react';
