@@ -2,14 +2,35 @@
   display: flex;
 }
 
-.person-card {
-  height: 740px;
-  width: 510px;
-}
-
 .janelle {
   background-color: #a8dadc;
 }
 
+.about {
+  width: fit-content;
+  height: 740px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.person-card,
+.profile-text {
+  height: 740px;
+}
+
+.profile-text {
+  margin-left: 80px;
+  margin-top: 0;
+  flex: 1;
+}
+
 .profile-photo {
+  margin-top: 15%;
+  width: 100%;
+  height: 510px;
+}
+
+.contact-icons {
+  justify-content: space-around;
+
 }
