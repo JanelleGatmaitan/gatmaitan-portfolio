@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+}
+
+.person-card {
+  height: 740px;
+  width: 510px;
+}
+
+.janelle {
+  background-color: #a8dadc;
+}
+
+.profile-photo {
+}

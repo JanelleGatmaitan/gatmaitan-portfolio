@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Nav from '../nav';
 import getData from '../../lib/get-data';
-import { HStack } from '@chakra-ui/react';
-import PersonCard from '../person-card';
+import About from '../about';
 
 function Portfolio(props) {
   const name = props.match.params.name;
@@ -16,9 +15,7 @@ function Portfolio(props) {
       {person &&
       <>
         <Nav firstName={person.firstName} lastName={person.lastName} />
-        <HStack>
-          <PersonCard />
-        </HStack>
+        <About firstName={person.firstName}/>
       </>
       }
     </>
