@@ -4,7 +4,6 @@ import {
   Heading,
   UnorderedList,
   ListItem,
-  LinkOverlay,
   Spacer
 }
   from '@chakra-ui/react';
@@ -14,6 +13,7 @@ function Nav(props) {
     <HStack
     bg="blue"
     height="115px"
+    width="100%"
     >
       <Heading ml="30px">{`${props.firstName} ${props.lastName}`}</Heading>
       <Spacer />
