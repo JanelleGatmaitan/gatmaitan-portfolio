@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .row {
   display: flex;
 }
@@ -50,8 +54,15 @@
   margin-left: 40px;
 }
 
+.profile-text {
+  text-align: center;
+}
+
 .about-text {
   line-height: 25px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
 }
 
 

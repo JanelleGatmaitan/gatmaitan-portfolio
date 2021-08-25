@@ -8,7 +8,7 @@ function About(props) {
   console.log("props.data.contacy: ", contact);
 
   return (
-    <div className="row about">
+    <div className="row about" id="about">
       { /* column 1 */}
       <div className="col person">
         <div className={classes}>
