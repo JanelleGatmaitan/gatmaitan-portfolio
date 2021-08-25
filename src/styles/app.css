@@ -52,6 +52,14 @@
 
 .contact-icon {
   height: 50px;
+  transition: transform .5s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.25);
+  opacity: 0.4;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 
 .text {

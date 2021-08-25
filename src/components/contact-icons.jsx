@@ -5,7 +5,7 @@ function ContactIcons(props) {
   return (
     <>
       <a href={`${contact.gitHub}`} target="_blank" rel="noreferrer">
-        <img className="contact-icon" alt="gitHub" src="/images/github.svg" />
+        <img fill="red" className="contact-icon" alt="gitHub" src="/images/github.svg" />
       </a>
       <a href={`${contact.linkedIn}`} target="_blank" rel="noreferrer">
         <img className="contact-icon" alt="linkedIn" src="/images/linkedin.svg" />
