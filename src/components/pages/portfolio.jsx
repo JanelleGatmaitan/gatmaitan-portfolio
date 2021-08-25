@@ -15,7 +15,7 @@ function Portfolio(props) {
       {person &&
       <>
         {/* <Nav firstName={person.firstName} lastName={person.lastName} /> */}
-        <About firstName={person.firstName}/>
+        <About data={person}/>
       </>
       }
     </>

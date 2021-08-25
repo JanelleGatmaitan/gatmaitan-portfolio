@@ -1,21 +1,32 @@
 import React from 'react';
 
 function About(props) {
-  const firstName = props.firstName;
+  // const firstName = props.data.firstName;
+  const { firstName, lastName, contact } = props.data;
   const classes = `person-card ${firstName.toLowerCase()}`;
+  console.log("props.data.contacy: ", contact);
+
   return (
     <div className="row about">
       { /* column 1 */}
       <div className="col person">
         <div className={classes}>
           <div className="photo-container">
-            <img className="profile-photo" alt={`${firstName} Gatmaitan`} src={`images/${firstName}.jpg`} />
+            <img className="profile-photo" alt={`${firstName + lastName}`} src={`/images/${firstName.toLowerCase()}.jpg`} />
           </div>
           <div className="row contact-icons">
-            <img className="contact-icon" alt="gitHub" src="/images/github.svg" />
-            <img className="contact-icon" alt="linkedIn" src="/images/linkedin.svg" />
-            <img className="contact-icon" alt="phone" src="/images/phone-f.svg" />
-            <img className="contact-icon" alt="email" src="/images/envelope-f.svg" />
+            <a href={`${contact.gitHub}`} target="_blank" rel="noreferrer">
+              <img className="contact-icon" alt="gitHub" src="/images/github.svg" />
+            </a>
+            <a href={`${contact.linkedIn}`} target="_blank" rel="noreferrer">
+              <img className="contact-icon" alt="linkedIn" src="/images/linkedin.svg" />
+            </a>
+            <a href={`tel:${contact.phone}`}>
+              <img className="contact-icon" alt="phone" src="/images/phone-f.svg" />
+            </a>
+            <a href={`mailto:${contact.email}`}>
+              <img className="contact-icon" alt="email" src="/images/envelope-f.svg" />
+            </a>
           </div>
         </div>
       </div>
