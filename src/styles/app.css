@@ -53,6 +53,7 @@ html {
 .text {
   width: 60%;
   margin-left: 40px;
+  background-color: #f0f1f2;
 }
 
 .profile-text {

@@ -2,9 +2,7 @@ import React from 'react';
 import ContactIcons from './contact-icons';
 
 function About(props) {
-  // const firstName = props.data.firstName;
-  const { firstName, lastName, contact, bio, projects } = props.data;
-  console.log('bio: ', bio);
+  const { firstName, lastName, contact, bio } = props.data;
   const classes = `person-card ${firstName.toLowerCase()}`;
 
   return (
@@ -21,10 +19,10 @@ function About(props) {
       </div>
       <div className="col text">
         <div className="profile-text">
-          <h1>{`Hello, I'm ${firstName}`}</h1>
+          <h1>{`Hello, I'm ${firstName}!`}</h1>
           {
             bio.map((paragraph) => {
-              return <p className="about-text">{paragraph}</p>
+              return <p key={bio.indexOf(paragraph)}className="about-text">{paragraph}</p>
             })
           }
         </div>

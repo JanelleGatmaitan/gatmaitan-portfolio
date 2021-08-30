@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Nav from '../nav';
+// import Nav from '../nav';
 import getData from '../../lib/get-data';
 import About from '../about';
 
