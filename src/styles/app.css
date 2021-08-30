@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Noto Sans', sans-serif;
+  color: #343a40;
 }
 
 .row {
@@ -11,10 +12,17 @@ html {
   background-color: #a8dadc;
 }
 
-.about {
+.about,
+.skills {
   width: 95%;
   height: 600px;
   margin: 0 auto;
+  border: solid red;
+}
+
+.skills {
+  margin: 50px auto;
+  text-align: center;
 }
 
 .person {
@@ -67,6 +75,16 @@ html {
   margin: auto;
   margin-bottom: 25px;
   text-align: left;
+}
+
+.skill-card {
+  border: solid yellow;
+  width: 12em;
+}
+
+.skill-icon {
+  font-size: 7em;
+  border: solid green;
 }
 
 @media only screen and (max-width: 600px) {
