@@ -9,7 +9,6 @@ function About(props) {
 
   return (
     <div className="row about" id="about">
-      { /* column 1 */}
       <div className="col person">
         <div className={classes}>
           <div className="photo-container">
@@ -20,7 +19,6 @@ function About(props) {
           </div>
         </div>
       </div>
-      { /* column 2 */}
       <div className="col text">
         <div className="profile-text">
           <h1>{`Hello, I'm ${firstName}`}</h1>
