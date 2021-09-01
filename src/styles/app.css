@@ -102,15 +102,14 @@ html {
 
 .project-card {
   border: solid #f0f1f2;
-  padding: 55px;
   margin: 20px;
-  width: 35%;
+  width: 40%;
   border-radius: 10px;
 }
 
 .project-img-container {
   border: solid red;
-  /* width: 80%; */
+  width: 100%;
   /* margin: 0 auto; */
 }
 

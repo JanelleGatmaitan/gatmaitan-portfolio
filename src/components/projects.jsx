@@ -25,7 +25,10 @@ function Projects(props) {
                   })
                 }
               </div>
-              <a target="_blank" rel="noreferrer" href={project.liveLink}>Live Demo</a>
+              <div className="row project-links">
+                <a className="project-link" target="_blank" rel="noreferrer" href={project.liveLink}>Live Demo</a>
+                <a className="project-link" target="_blank" rel="noreferrer" href={project.liveLink}>GitHub</a>
+              </div>
             </div>
           );
         })}
