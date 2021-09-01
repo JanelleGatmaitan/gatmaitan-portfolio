@@ -9,8 +9,8 @@ function Skills(props) {
         {skills.map(skill => {
           const devIcon = skill.toLowerCase();
           return (
-            <div className="skill-card">
-              <i key={skills.indexOf(skill)} className={`devicon-${devIcon}-plain colored skill-icon`} />
+            <div className="skill-card" key={skills.indexOf(skill)}>
+              <i className={`devicon-${devIcon}-plain colored skill-icon`} />
               <p>{skill}</p>
             </div>
           );
