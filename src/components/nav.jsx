@@ -11,7 +11,7 @@ import {
 function Nav(props) {
   return (
     <HStack
-    bg="blue"
+    className="janelle"
     height="115px"
     width="100%"
     >
