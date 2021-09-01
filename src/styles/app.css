@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Noto Sans', sans-serif;
+  color: #343a40;
 }
 
 .row {
@@ -11,10 +12,21 @@ html {
   background-color: #a8dadc;
 }
 
-.about {
-  width: 95%;
-  height: 600px;
+.about,
+.skills {
+  width: 80%;
   margin: 0 auto;
+}
+
+.skills {
+  margin: 50px auto;
+  text-align: center;
+  background-color: #f0f1f2;
+}
+
+.skills-row {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .person {
@@ -22,7 +34,7 @@ html {
 }
 
 .photo-container {
-  height: 450px;
+  /* height: 450px; */
   width: 100%;
   padding-top: 55px;
 }
@@ -69,11 +81,19 @@ html {
   text-align: left;
 }
 
+.skill-card {
+  width: 15em;
+}
+
+.skill-icon {
+  font-size: 7em;
+}
+
 @media only screen and (max-width: 600px) {
-  .about {
+  .about,
+  .skills {
     flex-direction: column;
     width: 100%;
-    height: fit-content;
   }
 
   .col {
@@ -83,4 +103,13 @@ html {
   .text {
     margin: 0;
   }
+
+  .skill-card {
+    width: 8em;
+  }
+
+.skill-icon {
+  font-size: 4em;
+}
+
 }

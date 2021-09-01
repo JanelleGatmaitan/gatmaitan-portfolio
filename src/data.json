@@ -10,6 +10,18 @@
         "gitHub": "linkToRepo"
       }
     ],
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "PostgresQL",
+      "Java",
+      "NodeJS",
+      "React",
+      "Git",
+      "Babel",
+      "Webpack"
+    ],
     "contact": {
       "email": "janellegatmaitan@gmail.com",
       "phone": "949-264-3741",
@@ -17,7 +29,7 @@
       "gitHub": "https://github.com/JanelleGatmaitan"
     },
     "bio": [
-      "I am a fullstack developer and a recent graduate from the University of California, Irvine where I received a B.A. in Public Health Policy. During my studies, I learned about the world of telemedicine and how software development can be used to increase accessibility and provide better health outcomes.",
+      "I am a fullstack developer and a graduate from the University of California, Irvine where I received a B.A. in Public Health Policy. During my studies, I learned about the world of telemedicine and how software development can be used to increase accessibility and provide better health outcomes.",
       "I became seriously interested in pursuing a career in software development after trying out some free, introductory resources about coding. I then decided to invest in myself and enroll in LearningFuze, an immersive web development bootcamp.",
       "I now have experience creating web applications using JavaScript, React.js, Node.js, PostgreSQL, and Express. I am always looking forward to expanding my skillset and learning more!"
     ]
