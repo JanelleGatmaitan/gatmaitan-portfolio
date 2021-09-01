@@ -6,9 +6,41 @@
     "projects": [
       {
         "projectName": "Sprout",
-        "liveLink": "gitHub.com/linktoproject",
-        "gitHub": "linkToRepo"
-      }
+        "description": "A full stack solo project for home gardeners.",
+        "liveLink": "https://vegetable-garden-tracker.herokuapp.com/#",
+        "gitHub": "https://github.com/JanelleGatmaitan/sprout",
+        "technologies": [
+          "Node.js",
+          "PostgreSQL",
+          "React",
+          "Express",
+          "Chakra UI"
+        ]
+      },
+      {
+        "projectName": "eeeeeeee",
+        "description": "A full stack solo project for home gardeners.",
+        "liveLink": "https://vegetable-garden-tracker.herokuapp.com/#",
+        "gitHub": "https://github.com/JanelleGatmaitan/sprout",
+        "technologies": [
+          "Node.js",
+          "PostgreSQL",
+          "React",
+          "Express"
+        ]
+      },
+          {
+            "projectName": "eedfgdeeeeee",
+            "description": "A full stack solo project for home gardeners.",
+            "liveLink": "https://vegetable-garden-tracker.herokuapp.com/#",
+            "gitHub": "https://github.com/JanelleGatmaitan/sprout",
+            "technologies": [
+              "Node.js",
+              "PostgreSQL",
+              "React",
+              "Express"
+            ]
+          }
     ],
     "skills": [
       "HTML5",

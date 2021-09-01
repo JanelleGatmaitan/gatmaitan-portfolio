@@ -4,7 +4,7 @@ function Skills(props) {
   const skills = props.skills;
   return (
     <div className="skills">
-      <h1>Tools & Technologies</h1>
+      <h1 className="subsection-heading">Tools & Technologies</h1>
       <div className="row skills-row">
         {skills.map(skill => {
           const devIcon = skill.toLowerCase();

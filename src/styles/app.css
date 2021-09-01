@@ -8,25 +8,37 @@ html {
   display: flex;
 }
 
+.subsection-heading {
+ padding: 30px;
+}
+
 .janelle {
   background-color: #a8dadc;
 }
 
 .about,
-.skills {
-  width: 80%;
+.skills,
+.projects {
+  width: 75%;
   margin: 0 auto;
+  border: solid blue;
+}
+
+.skills,
+.projects {
+  margin: 50px auto;
+  text-align: center;
 }
 
 .skills {
-  margin: 50px auto;
-  text-align: center;
   background-color: #f0f1f2;
 }
 
-.skills-row {
+.skills-row,
+.projects-row {
   flex-wrap: wrap;
   justify-content: center;
+  border: solid yellow;
 }
 
 .person {
@@ -34,7 +46,6 @@ html {
 }
 
 .photo-container {
-  /* height: 450px; */
   width: 100%;
   padding-top: 55px;
 }
@@ -82,16 +93,46 @@ html {
 }
 
 .skill-card {
-  width: 15em;
+  width: 33%;
 }
 
 .skill-icon {
   font-size: 7em;
 }
 
+.project-card {
+  border: solid #f0f1f2;
+  padding: 55px;
+  margin: 20px;
+  width: 35%;
+  border-radius: 10px;
+}
+
+.project-img-container {
+  border: solid red;
+  /* width: 80%; */
+  /* margin: 0 auto; */
+}
+
+.technologies {
+  border: solid purple;
+  /* width: 100%; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.technology {
+  border: solid green;
+  background-color: orange;
+  margin: 0 8px;
+  padding: 4px;
+  font-size: 12px;
+}
+
 @media only screen and (max-width: 600px) {
   .about,
-  .skills {
+  .skills,
+  .projects {
     flex-direction: column;
     width: 100%;
   }
