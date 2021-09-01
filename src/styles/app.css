@@ -14,15 +14,19 @@ html {
 
 .about,
 .skills {
-  width: 95%;
-  height: 600px;
+  width: 80%;
   margin: 0 auto;
-  border: solid red;
 }
 
 .skills {
   margin: 50px auto;
   text-align: center;
+  background-color: #f0f1f2;
+}
+
+.skills-row {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .person {
@@ -30,7 +34,7 @@ html {
 }
 
 .photo-container {
-  height: 450px;
+  /* height: 450px; */
   width: 100%;
   padding-top: 55px;
 }
@@ -78,20 +82,18 @@ html {
 }
 
 .skill-card {
-  border: solid yellow;
-  width: 12em;
+  width: 15em;
 }
 
 .skill-icon {
   font-size: 7em;
-  border: solid green;
 }
 
 @media only screen and (max-width: 600px) {
-  .about {
+  .about,
+  .skills {
     flex-direction: column;
     width: 100%;
-    height: fit-content;
   }
 
   .col {
@@ -101,4 +103,13 @@ html {
   .text {
     margin: 0;
   }
+
+  .skill-card {
+    width: 8em;
+  }
+
+.skill-icon {
+  font-size: 4em;
+}
+
 }
