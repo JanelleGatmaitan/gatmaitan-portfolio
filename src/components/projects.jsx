@@ -12,7 +12,7 @@ function Projects(props) {
           return (
             <div className="project-card" key={name}>
               <div className="project-img-container">
-                <img className="project-img" alt={name} src={`/images/${name}.jpg`} />
+                <img className="project-img" alt={name} src={project.imgUrl} />
               </div>
               <h3>{name}</h3>
               <p>{project.description}</p>

@@ -6,6 +6,7 @@
     "projects": [
       {
         "projectName": "Sprout",
+        "imgUrl": "/images/sprout.JPG",
         "description": "A full stack solo project for home gardeners.",
         "liveLink": "https://vegetable-garden-tracker.herokuapp.com/#",
         "gitHub": "https://github.com/JanelleGatmaitan/sprout",
@@ -18,29 +19,18 @@
         ]
       },
       {
-        "projectName": "eeeeeeee",
-        "description": "A full stack solo project for home gardeners.",
-        "liveLink": "https://vegetable-garden-tracker.herokuapp.com/#",
-        "gitHub": "https://github.com/JanelleGatmaitan/sprout",
+        "projectName": "View Finder",
+        "imgUrl": "/images/view_finder.JPG",
+        "description": "A dynamic HTML, CSS, and JavaScript solo project for people who want to find the best places to enjoy sunsets and sunrises.",
+        "liveLink": "https://janellegatmaitan.github.io/view-finder/",
+        "gitHub": "https://github.com/JanelleGatmaitan/view-finder",
         "technologies": [
-          "Node.js",
-          "PostgreSQL",
-          "React",
-          "Express"
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "AJAX"
         ]
-      },
-          {
-            "projectName": "eedfgdeeeeee",
-            "description": "A full stack solo project for home gardeners.",
-            "liveLink": "https://vegetable-garden-tracker.herokuapp.com/#",
-            "gitHub": "https://github.com/JanelleGatmaitan/sprout",
-            "technologies": [
-              "Node.js",
-              "PostgreSQL",
-              "React",
-              "Express"
-            ]
-          }
+      }
     ],
     "skills": [
       "HTML5",

@@ -105,9 +105,13 @@ html {
 
 .project-card {
   margin: 20px;
-  width: 40%;
+  width: 41%;
   border: solid 2px #f0f1f2;
-  border-radius: 10px;
+}
+
+.project-card,
+.technology {
+   border-radius: 10px;
 }
 
 .project-img-container {
@@ -115,9 +119,8 @@ html {
   height: 300px;
 }
 
-.project-img,
-.technology {
-  border-radius: 10px;
+.project-img {
+  border-radius: 10px 10px 0 0;
 }
 
 .technologies,
@@ -148,7 +151,8 @@ html {
     width: 100%;
   }
 
-  .col {
+  .col,
+  .project-card {
     width: 100%;
   }
 
