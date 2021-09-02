@@ -24,7 +24,8 @@ html {
 }
 
 .skills,
-.projects {
+.projects,
+.contact {
   margin: 50px auto;
   text-align: center;
 }
@@ -60,8 +61,14 @@ html {
   padding: 17px 0;
 }
 
+.contact-icons-contact {
+  width: 50%;
+  justify-content: space-around;
+  border: solid green;
+}
+
 .contact-icon {
-  height: 50px;
+  height: 60px;
   transition: transform .5s ease;
 }
 
