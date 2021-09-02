@@ -19,7 +19,7 @@ function Portfolio(props) {
         {/* <Nav firstName={person.firstName} lastName={person.lastName} /> */}
         <About data={person}/>
         <Skills skills={person.skills} />
-        <Projects projects={person.projects} />
+        <Projects name={person.firstName} projects={person.projects} />
       </>
       }
     </>

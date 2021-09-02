@@ -12,7 +12,7 @@ function Projects(props) {
           return (
             <div className="project-card" key={name}>
               <div className="project-img-container">
-                <img alt={name} />
+                <img className="project-img" alt={name} src={`/images/${name}.jpg`} />
               </div>
               <h3>{name}</h3>
               <p>{project.description}</p>
@@ -20,14 +20,14 @@ function Projects(props) {
                 {
                   technologies.map(technology => {
                     return (
-                      <p className="technology" key={technology}>{technology}</p>
+                      <p className={`technology ${props.name.toLowerCase()}`} key={technology}>{technology}</p>
                     );
                   })
                 }
               </div>
               <div className="row project-links">
                 <a className="project-link" target="_blank" rel="noreferrer" href={project.liveLink}>Live Demo</a>
-                <a className="project-link" target="_blank" rel="noreferrer" href={project.liveLink}>GitHub</a>
+                <a className="project-link" target="_blank" rel="noreferrer" href={project.gitHub}>GitHub</a>
               </div>
             </div>
           );
