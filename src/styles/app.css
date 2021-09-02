@@ -61,12 +61,6 @@ html {
   padding: 17px 0;
 }
 
-.contact-icons-contact {
-  width: 50%;
-  justify-content: space-around;
-  border: solid green;
-}
-
 .contact-icon {
   height: 60px;
   transition: transform .5s ease;
