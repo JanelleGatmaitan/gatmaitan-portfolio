@@ -3,7 +3,7 @@ import React from 'react';
 function Skills(props) {
   const skills = props.skills;
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <h1 className="subsection-heading">Tools & Technologies</h1>
       <div className="row skills-row">
         {skills.map(skill => {

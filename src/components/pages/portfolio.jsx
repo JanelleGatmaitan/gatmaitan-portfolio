@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 // import Nav from '../nav';
 import getData from '../../lib/get-data';
 import About from '../about';
-import Skills from '../skils';
+import Skills from '../skills';
 import Projects from '../projects';
 
 function Portfolio(props) {

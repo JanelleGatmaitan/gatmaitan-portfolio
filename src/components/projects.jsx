@@ -3,7 +3,7 @@ import React from 'react';
 function Projects(props) {
   const projects = props.projects;
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1 className="subsection-heading">Projects</h1>
       <div className="row projects-row">
         {projects.map(project => {
