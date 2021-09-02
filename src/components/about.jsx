@@ -10,7 +10,7 @@ function About(props) {
       <div className="col person">
         <div className={classes}>
           <div className="photo-container">
-            <img className="profile-photo" alt={`${firstName + lastName}`} src={`/images/${firstName.toLowerCase()}.jpg`} />
+            <img className="profile-img" alt={`${firstName + lastName}`} src={`/images/${firstName.toLowerCase()}.jpg`} />
           </div>
           <div className="row contact-icons">
             <ContactIcons contactInfo={contact} />
